@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #010101;
+}
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 14%;
+    z-index: 1;
+}
+.logo img{
+    width: 70px;
+    height:auto;
+}
+.navbar{
+    display:flex;
+}
+.navbar a{
+    color: #010101;
+    font-size: 30pxpx;
+    font-weight: 500px;
+    margin: 5px 15px;
+}
+.navbar a:hover{
+    color: #2abae6;
+}
+.h-icons{
+    display: flex;
+    align-items: center;
+}
+.h-icons i{
+    font-size: 25px;
+    color: #010101;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.h-icons i:hover{
+    color: #e55472;
+}
+
+section{
+    margin-top: 110px;
+}
+
+.page1{
+    background-image: url("../images/img1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: grid;
+}
+
+ section h1{
+    font-size: 60px;
+    margin-top: 110px;
+    margin-left: 80px;
+    font-family: "Pacifico", cursive;
+  font-weight: bold;
+
+}
+section p{
+    font-size:18px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 500px;
+    font-family: "Pacifico", cursive;
+    
+}
+section button{
+    width:250px;
+    margin: 50px 350px 160px 80px;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color:plum;
+    border-color: white;
+    font-weight: bold;
+}
+.page2{
+    background-image: url("../images/img2.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: grid;
+    margin-top: 10px
+
+}
+#page2 h2{
+    margin-top: 50px;
+}
+.page2-1{
+    text-align: center;
+}
+.page2-1 h3{
+    font-size: 40px;
+    margin-top: 50px;
+    text-decoration-line: underline;
+}
+.page2-1 p > q{
+    font-size: 20px;
+    display:inline-block;
+    margin-top: 20px;
+    font-family: "Pacifico", cursive;
+    text-decoration-line: underline;
+}
+.p1 p{
+    margin: 40px 350px 0px;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+}
+.p1 q{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+}
+.q1{
+    margin-top: 70px;
+}
+.q2{
+    margin-top: 20px;
+}
+.q3{
+    margin: 20px 0px 100px;
+}
+
+.wholepage3{
+    background-color: lightblue;
+    margin-top: 10px;
+    padding: 40px;
+
+}
+
+.page3{
+    display: flex;
+    justify-content: space-between;
+    margin:0 100px 0 100px;
+}
+.card{
+    margin: 20px 30px 20px 30px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 10%);
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-img-top{
+    height: 250px;
+    width:250px;
+    margin: 12px
+}
+.wholepage4{
+    background-color:lightpink;
+    margin-top: 10px;
+    padding:40px;
+}
+footer{
+    margin-top: 10px;
+    background-color:ivory;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.top{
+    display: flex;
+}
+.top-f{
+    background-repeat: no-repeat;
+    position:relative;
+    top:20px;
+    left: 200px;
+}
+.top-f > img{
+    height: 400px;
+}
+.top-p{
+    width:300px;
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+    position: relative;
+    top:20px;
+    left:100px;
+}
+.top-p p{
+    font-family: "Pacifico", cursive;
+}
+.blogs > h5{
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center;
+}
+.blogs > hr{
+    border: 2px solid black;
+    width:60%;
+    margin-left: 270px;
+    margin-top: 15px;
+}
+.links{
+    margin: 20px 100px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+}
+a:hover{
+    color:rgb(54, 224, 210);
+}
+.social > h5{
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center;
+}
+.social > hr{
+    border: 2px solid black;
+    width:33%;
+    margin-left: 450px;
+    margin-top: 15px;
+}
+.social-icon{
+    margin: 20px 400px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon i{
+    font-size: 70px;
+}
+.social-icon h6{
+    font-size: 18px;
+}
+.social-icon hr{
+    border: 1px solid black;
+    width:100%;
+}
